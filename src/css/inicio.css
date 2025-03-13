@@ -76,4 +76,42 @@ nav{
     width: 90px;
     margin-left: 70px;
 }
-/************* Nav *************/
+/******************************/
+/************* Header *************/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 140px 0px 100px 0px;
+}
+.div__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.div__logo{
+    display: flex;
+    width: 600px;
+    height: 500px;
+    margin-left: 70px;
+    flex-direction: column;
+    align-items: center;
+}
+.div__logo img{
+    filter: invert(1);
+    width: 600px;
+    height: 291px;
+}
+.div__logo .text-crae1{
+    font-family: "ReadexPro-Light";
+    font-size: 40px;
+    margin-top: 10px;
+    color: var(--color-2);
+}
+.div__logo .text-crae2{
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    color: var(--color-2);
+}
