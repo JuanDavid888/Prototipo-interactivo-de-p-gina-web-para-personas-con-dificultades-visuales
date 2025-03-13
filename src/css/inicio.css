@@ -115,3 +115,36 @@ header{
     margin-left: 10px;
     color: var(--color-2);
 }
+.div__buy{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+    margin-left: 50px;
+}
+.div__buy .cards-logo{
+    width: 350px;
+    height: 350px;
+    margin-top: -50px;
+    transform: rotate(13.36deg);
+}
+.button-buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 237px;
+    height: 54px;
+    border: none;
+    border-radius: 40px;
+    margin-left: 80px;
+}
+.button-buy .shopping{
+    transform: rotate(0deg);
+    width: 30px;
+    height: 30px;
+}
+.text-button-buy{
+    font-family: "Roboto_Condensed-Bold";
+    font-size: 35px;
+    color: var(--color-1);
+}
