@@ -4,3 +4,71 @@
     margin: 0;
     box-sizing: border-box;
 }
+/************ Main ************/
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 0px 0px 65px;
+}
+.div__main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.div__left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.div__left .CRAE{
+    width: 100%;
+}
+.title2{
+    font-family: "ReadexPro-Medium";
+    font-size: 40px;
+    text-align: center;
+    line-height: auto;
+    margin-top: 21px;
+}
+.text1{
+    font-family: "ReadexPro-Light";
+    font-size: 25px;
+    line-height: 151.5%;
+    margin-top: 10px;
+}
+.div__right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+.computer{
+    width: 80%;
+}
+.screen{
+    margin-top: 20px;
+    margin-left: 120px;
+    position: absolute;
+    width: 34%;
+}
+/******************************/
+/************ Footer ***********/
+footer{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+button a{
+    font-family: "Roboto_Condensed-Bold";
+    font-size: 45px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--color-1);
+    color: var(--color-2);
+    text-decoration: none;
+}
