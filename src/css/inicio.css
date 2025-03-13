@@ -1,0 +1,79 @@
+@import url(variables.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--color-1);
+}
+/************* Nav *************/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 15px 0px 0px 0px;
+}
+.div__nav-water{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 85px;
+    border-radius: 0px 48px 48px 0px;
+    background-color: var(--color-2);
+}
+.div__nav-water span{
+    font-family: "Roboto_Condensed-Regular";
+    font-size: 48px;
+    margin-left: 30px;
+    color: var(--color-3);
+}
+.div__nav-water img{
+    margin-left: 15px;
+    width: 42.26px;
+    height: 42.45px;
+}
+.div__nav-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+}
+.list{
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.list li{
+    font-size: 24px;
+    margin: 0 40px;
+}
+.active{
+    font-family: "Roboto_Condensed-Bold";
+    color: var(--color-2);
+}
+.off1{
+    font-family: "Roboto_Condensed-Bold";
+    text-decoration: none;
+    color: var(--color-2);
+}
+.off2{
+    font-family: "Roboto_Condensed-Bold";
+    text-decoration: none;
+    color: var(--color-2);
+}
+.off3{
+    font-family: "Roboto_Condensed-Bold";
+    text-decoration: none;
+    color: var(--color-2);
+}
+.div__nav-modes{
+    display: flex;
+    justify-content: space-between;
+    width: 90px;
+    margin-left: 70px;
+}
+/************* Nav *************/
